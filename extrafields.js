@@ -1,5 +1,6 @@
 Ecwid.OnAPILoaded.add(function() {
 // Initialize extra fields
+console.log(ec);  
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
 
